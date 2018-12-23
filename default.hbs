@@ -68,6 +68,22 @@
     </div>
 
 
+    <form>
+        <input id="search-field" />
+        <input type="submit" value="search">
+    </form>
+
+    <section id="results"></section>
+
+
+    <script type="text/javascript" src="{{asset "js/app.js"}}"></script>
+
+    <script type="text/javascript" src="{{asset "ghostHunter/dist/jquery.ghosthunter.js"}}">
+        $("#search-field").ghostHunter({
+            results: "#results"
+        });
+    </script>
+
 
     {{!-- Theme Scripts --}}
     <script src="{{asset "main/js/jquery.min.js"}}"></script>
