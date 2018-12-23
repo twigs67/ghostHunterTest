@@ -68,6 +68,16 @@
     </div>
 
 
+    {{!-- Theme Scripts --}}
+    <script src="{{asset "main/js/jquery.min.js"}}"></script>
+    <script src="{{asset "main/js/jquery.scrollex.min.js"}}"></script>
+    <script src="{{asset "main/js/jquery.scrolly.min.js"}}"></script>
+    <script src="{{asset "main/js/browser.min.js"}}"></script>
+    <script src="{{asset "main/js/breakpoints.min.js"}}"></script>
+    <script src="{{asset "main/js/util.js"}}"></script>
+    <script src="{{asset "main/js/main.js"}}"></script>
+
+
     <form>
         <input id="search-field" />
         <input type="submit" value="search">
@@ -84,15 +94,6 @@
         });
     </script>
 
-
-    {{!-- Theme Scripts --}}
-    <script src="{{asset "main/js/jquery.min.js"}}"></script>
-    <script src="{{asset "main/js/jquery.scrollex.min.js"}}"></script>
-    <script src="{{asset "main/js/jquery.scrolly.min.js"}}"></script>
-    <script src="{{asset "main/js/browser.min.js"}}"></script>
-    <script src="{{asset "main/js/breakpoints.min.js"}}"></script>
-    <script src="{{asset "main/js/util.js"}}"></script>
-    <script src="{{asset "main/js/main.js"}}"></script>
 
     {{!-- Ghost outputs important scripts & data with the {ghost_foot} tag
     it should always be the very last thing before the closing body tag --}}
